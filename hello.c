@@ -1,17 +1,10 @@
 /* Escribir por pantalla Hello World!
 * Ibarra Maximiliano
-* 20170319
+* 20170326 - V2
 */
 #include <stdio.h>
-int main(void){
+int main(){
 
-  char mensaje[15]="Hola Mundo!";
-  FILE *arch;
-
-  arch = fopen ("salida.txt","w");
-
-
-   printf("%s",mensaje);
-   fprintf(arch,"%s",mensaje);
+    printf("Hola Mundo!");
 
 }
